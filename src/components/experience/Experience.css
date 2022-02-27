@@ -1,0 +1,115 @@
+.experience{
+    width:100vw;
+    height: calc(100vh - 70px);
+    scroll-snap-align: start;
+    scroll-behavior: smooth;
+    background-color: #064663;
+    color: #ECB365;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.experience .arrow{
+    font-size: 50px;
+    position: absolute;
+    cursor: pointer;
+}
+
+
+.experience .arrow.left{
+    left:100px;
+}
+
+.experience .arrow.right{
+    right:100px;
+}
+    
+
+.experience .slider{
+    margin-top: 20px;
+    height:350px;
+    display: flex;
+    position: absolute;
+    left:0;
+    transition: all 1s ease-out;
+
+}
+
+.experience h1{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+}
+
+.experience .slider .container{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience .slider .container .item{
+    width: 700px;
+    height: 100%;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience .slider .container .item .left{
+    flex:4;
+    height: 80%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience .slider .container .item .left .leftContainer{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.experience .slider .container .item .left .leftContainer .imgContainer{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #064663;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience .slider .container .item .left .leftContainer h2{
+    font-size: 20px;
+    color: black;
+}
+
+.experience .slider .container .item .left .leftContainer p{
+    font-size: 12px;
+    color: black;
+}
+
+.experience .slider .container .item .left .leftContainer .imgContainer .img{
+    width: 25px;
+}
+
+.experience .slider .container .item .right{
+    flex:8;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+

@@ -1,0 +1,34 @@
+.contact{
+    width:100vw;
+    height: calc(100vh - 400px);
+    scroll-snap-align: start;
+    scroll-behavior: smooth;
+    background-color: rgb(65, 108, 126);
+    color:#ECB365;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contact h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+.iconContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#a{
+    width: 140px;
+    height: 90px;
+}
+
+#b{
+    width: 112px;
+    height: 112px;
+}

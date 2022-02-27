@@ -1,0 +1,97 @@
+.intro {
+    width:100vw;
+    height: calc(100vh - 70px);
+    scroll-snap-align: start;
+    scroll-behavior: smooth;
+    background-color: #04293A;
+    color: #ECB365;
+    align-items: center;
+    display: flex;
+}
+
+.leftIntro {
+    flex: 0.45;
+    position: relative;
+}
+
+.imgContainer {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(65, 108, 126);
+    border-radius: 60%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    float: right;
+}
+
+.rightIntro {
+    flex: 0.5;
+    overflow: hidden;
+}
+
+.rightIntro h1 {
+    font-size: 60px;
+    margin: 10px 0;
+}
+
+.rightIntro h2 {
+    font-size: 35px;
+}
+
+.rightIntro h3 {
+    font-size: 30px;
+}
+
+.rightIntro h3 span{
+    font-size: 30px;
+}
+
+.rightIntro span #name{
+    font-size: 30px;
+}
+
+.wrapperIntro {
+    width: 100%;
+    height: 100%;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ityped-cursor {
+    font-size: 2.2rem;
+    opacity: 1;
+    -webkit-animation: blink 0.3s infinite;
+    -moz-animation: blink 0.3s infinite;
+    animation: blink 0.3s infinite;
+    animation-direction: alternate;
+}
+ 
+@keyframes blink {
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+ 
+@-webkit-keyframes blink {
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+ 
+@-moz-keyframes blink {
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

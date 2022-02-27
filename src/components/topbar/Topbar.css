@@ -1,0 +1,82 @@
+.topbar{
+    width: 100%;
+    height: 70px;
+    background-color: #041C32;
+    position: fixed;
+    top:0;
+    z-index: 3;
+}
+
+.wrapper{
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ECB365;
+    margin-left: 40px;
+}
+
+.itemContainer{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    height:30px;
+}
+
+.itemContainer:hover{
+    background-color: #ECB365;
+    border-radius: 15px;
+}
+
+.itemContainer:hover > .icon{
+    color: #041C32;
+}
+
+.itemContainer:hover > span{
+    color: #041C32;
+}
+
+.itemContainer .icon{
+    font-size: 18px;
+    margin-left: 5px;
+    color: #ECB365;
+}
+
+.itemContainer span{
+    font-size: 15px;
+    font-weight: 500;
+    color: #ECB365;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+a{
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color:#ECB365;
+
+}
+
+.wrapper .left .icon{
+    font-size: 35px;
+    margin-left: 5px;
+    color: #ECB365;
+}
+
+.wrapper .left:hover > .icon{
+    color:#041C32;
+    background-color:#ECB365;
+    border-radius: 15px;
+}
