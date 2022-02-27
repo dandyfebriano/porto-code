@@ -10,9 +10,6 @@ export default function Menu({menuOpen, setMenuOpen}) {
                 <a href="#intro">Introduction</a>
             </li>
             <li>
-                <a href="#about">About me</a>
-            </li>
-            <li>
                 <a href="#experience">Experience</a>
             </li>
         </ul>
