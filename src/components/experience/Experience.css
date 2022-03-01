@@ -99,10 +99,6 @@
     color: black;
 }
 
-.experience .slider .container .item .left .leftContainer .imgContainer span{
-    width: 25px;
-}
-
 .experience .slider .container .item .right{
     flex:8;
     height: 100%;
@@ -139,9 +135,8 @@
         height: 24px;
     }
 
-    .experience .slider .container .item .left .leftContainer .imgContainer span{
-        width: 15px;
-        height: 15px;
+    .experience .slider .container .item .left .leftContainer .imgContainer .css-kp9ftd-MuiIcon-root{
+        font-size: 1rem;
     }
 
     .experience .slider .container .item .left .leftContainer h2{
